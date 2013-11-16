@@ -1,0 +1,10 @@
+{
+    "name": "letmegetthatforyou-client",
+    "version": "0.0.1",
+    "main": "./client.js",
+    "dependencies": {
+		"express": "*",
+		"querystring": "*",
+		"request": "*"
+    }
+}

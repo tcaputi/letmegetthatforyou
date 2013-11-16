@@ -6,6 +6,7 @@
 		"express": "*",
 		"querystring": "*",
 		"request": "*",
-		"mongodb": "*"
+		"mongodb": "*",
+		"MD5": "*"
     }
 }

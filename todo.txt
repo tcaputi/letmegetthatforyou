@@ -1,3 +1,4 @@
 TODO
 make client server https
 make server /connect return a secret as its body
+secure database

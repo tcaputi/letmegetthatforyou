@@ -39,7 +39,7 @@ socket.on('data', function (data) {
 				file.size = stats.size;
 				file.ctime = stats.ctime;
 				file.mtime = stats.mtime;
-				var ext = path.extname(filename||'').split('.');
+				var ext = path.extname(file.name||'').split('.');
 				file.extension = ext[ext.length - 1];
 				files.push(file);
 			};
